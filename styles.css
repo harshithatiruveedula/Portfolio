@@ -336,7 +336,7 @@ body {
         font-size: 16px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 8px;
         width: 100%;
     }
@@ -365,12 +365,13 @@ body {
     }
 
     .skill-group {
-        display: block;
-        width: 100%;
-        text-align: right;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 8px;
+        display: block !important;
+        width: 100% !important;
+        text-align: right !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 8px !important;
+        align-self: stretch !important;
     }
 
     .contact-details {
@@ -416,6 +417,7 @@ body {
     .skills-list {
         font-size: 14px;
         gap: 6px;
+        align-items: stretch;
     }
 
     .skill-item {
@@ -437,10 +439,12 @@ body {
     }
 
     .skill-group {
-        display: block;
-        width: 100%;
-        text-align: right;
-        margin-right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: right !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        align-self: stretch !important;
     }
 }
 
