@@ -334,16 +334,13 @@ body {
 
     .skills-list {
         font-size: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 8px;
+        display: block;
         width: 100%;
     }
 
     .skill-item {
-        display: block;
-        width: 100%;
+        display: inline-block;
+        margin-right: 20px;
         text-align: left;
     }
 
@@ -351,7 +348,6 @@ body {
     .skill-item:nth-child(2),
     .skill-item:nth-child(3) {
         display: inline-block;
-        width: auto;
         margin-right: 20px;
         text-align: left;
     }
@@ -360,8 +356,10 @@ body {
         display: block;
         margin-right: 0;
         margin-top: 8px;
+        margin-bottom: 8px;
         width: 100%;
         text-align: left;
+        clear: both;
     }
 
     .skill-group {
@@ -371,7 +369,7 @@ body {
         margin-left: 0 !important;
         margin-right: 0 !important;
         margin-top: 8px !important;
-        align-self: stretch !important;
+        clear: both !important;
     }
 
     .contact-details {
@@ -416,8 +414,7 @@ body {
 
     .skills-list {
         font-size: 14px;
-        gap: 6px;
-        align-items: stretch;
+        display: block;
     }
 
     .skill-item {
@@ -435,7 +432,10 @@ body {
     .skill-item:nth-child(4) {
         display: block;
         margin-right: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
         width: 100%;
+        clear: both;
     }
 
     .skill-group {
@@ -444,7 +444,7 @@ body {
         text-align: right !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        align-self: stretch !important;
+        clear: both !important;
     }
 }
 
