@@ -242,8 +242,20 @@ body {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
     .about-section {
-        padding: 40px 20px;
+        padding: 40px 15px;
+    }
+
+    .projects-section {
+        padding: 40px 15px;
+    }
+
+    .skills-contact-section {
+        padding: 40px 15px;
     }
 
     .about-content {
@@ -326,11 +338,22 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
+        width: 100%;
     }
 
     .skill-item {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .skill-item:nth-child(1),
+    .skill-item:nth-child(2),
+    .skill-item:nth-child(3) {
         display: inline-block;
+        width: auto;
         margin-right: 20px;
+        text-align: left;
     }
 
     .skill-item:nth-child(4) {
@@ -338,10 +361,13 @@ body {
         margin-right: 0;
         margin-top: 8px;
         width: 100%;
+        text-align: left;
     }
 
     .skill-group {
-        align-self: flex-end;
+        display: block;
+        width: 100%;
+        text-align: right;
         margin-left: 0;
         margin-right: 0;
         margin-top: 8px;
@@ -394,14 +420,26 @@ body {
 
     .skill-item {
         margin-right: 15px;
+        text-align: left;
+    }
+
+    .skill-item:nth-child(1),
+    .skill-item:nth-child(2),
+    .skill-item:nth-child(3) {
+        display: inline-block;
+        width: auto;
     }
 
     .skill-item:nth-child(4) {
+        display: block;
         margin-right: 0;
+        width: 100%;
     }
 
     .skill-group {
-        align-self: flex-end;
+        display: block;
+        width: 100%;
+        text-align: right;
         margin-right: 0;
     }
 }
