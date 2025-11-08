@@ -210,7 +210,17 @@ body {
     gap: 170px;
 }
 
+.skills-line-1 {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
 .skill-item {
+    white-space: nowrap;
+}
+
+.skill-line-2 {
     white-space: nowrap;
 }
 
@@ -336,6 +346,13 @@ body {
         font-size: 16px;
         display: block;
         width: 100%;
+        line-height: 1.8;
+    }
+
+    .skills-line-1 {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
     }
 
     .skill-item {
@@ -344,22 +361,12 @@ body {
         text-align: left;
     }
 
-    .skill-item:nth-child(1),
-    .skill-item:nth-child(2),
-    .skill-item:nth-child(3) {
-        display: inline-block;
-        margin-right: 20px;
-        text-align: left;
-    }
-
-    .skill-item:nth-child(4) {
+    .skill-line-2 {
         display: block;
-        margin-right: 0;
-        margin-top: 8px;
-        margin-bottom: 8px;
         width: 100%;
+        margin-top: 0;
+        margin-bottom: 8px;
         text-align: left;
-        clear: both;
     }
 
     .skill-group {
@@ -368,8 +375,7 @@ body {
         text-align: right !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        margin-top: 8px !important;
-        clear: both !important;
+        margin-top: 0 !important;
     }
 
     .contact-details {
@@ -415,6 +421,11 @@ body {
     .skills-list {
         font-size: 14px;
         display: block;
+        line-height: 1.8;
+    }
+
+    .skills-line-1 {
+        margin-bottom: 6px;
     }
 
     .skill-item {
@@ -422,20 +433,8 @@ body {
         text-align: left;
     }
 
-    .skill-item:nth-child(1),
-    .skill-item:nth-child(2),
-    .skill-item:nth-child(3) {
-        display: inline-block;
-        width: auto;
-    }
-
-    .skill-item:nth-child(4) {
-        display: block;
-        margin-right: 0;
-        margin-top: 6px;
+    .skill-line-2 {
         margin-bottom: 6px;
-        width: 100%;
-        clear: both;
     }
 
     .skill-group {
@@ -444,7 +443,7 @@ body {
         text-align: right !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        clear: both !important;
+        margin-top: 0 !important;
     }
 }
 
