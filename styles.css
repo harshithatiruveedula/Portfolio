@@ -353,6 +353,14 @@ body {
         display: block;
         width: 100%;
         margin-bottom: 8px;
+        white-space: nowrap;
+    }
+
+    .skills-line-1 .skill-item {
+        display: inline-block;
+        margin-right: 20px;
+        text-align: left;
+        white-space: normal;
     }
 
     .skill-item {
@@ -367,6 +375,7 @@ body {
         margin-top: 0;
         margin-bottom: 8px;
         text-align: left;
+        clear: both;
     }
 
     .skill-group {
@@ -376,6 +385,7 @@ body {
         margin-left: 0 !important;
         margin-right: 0 !important;
         margin-top: 0 !important;
+        clear: both !important;
     }
 
     .contact-details {
@@ -426,6 +436,12 @@ body {
 
     .skills-line-1 {
         margin-bottom: 6px;
+        white-space: nowrap;
+    }
+
+    .skills-line-1 .skill-item {
+        margin-right: 15px;
+        white-space: normal;
     }
 
     .skill-item {
@@ -434,7 +450,11 @@ body {
     }
 
     .skill-line-2 {
+        display: block;
+        width: 100%;
         margin-bottom: 6px;
+        text-align: left;
+        clear: both;
     }
 
     .skill-group {
@@ -444,6 +464,7 @@ body {
         margin-left: 0 !important;
         margin-right: 0 !important;
         margin-top: 0 !important;
+        clear: both !important;
     }
 }
 
