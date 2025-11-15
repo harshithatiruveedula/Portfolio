@@ -114,6 +114,11 @@ body {
     gap: 50px;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.project-item:last-child {
+    margin-bottom: 0;
 }
 
 .project-left {
@@ -156,6 +161,11 @@ body {
     margin-top: 5px;
 }
 
+.projects-section .project-item:nth-of-type(2) .project-title,
+.projects-section .project-item:last-child .project-title {
+    padding-left: 37px;
+}
+
 .view-project-btn {
     display: inline-block;
     padding: 12px 30px;
@@ -167,6 +177,7 @@ body {
     transition: background-color 0.3s;
     width: fit-content;
     margin-top: 5px;
+    margin-left: 17px;
 }
 
 .view-project-btn:hover {
