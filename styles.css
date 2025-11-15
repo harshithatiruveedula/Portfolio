@@ -334,10 +334,12 @@ body {
     .project-title {
         text-align: center;
         width: 100%;
+        padding-left: 0 !important;
     }
 
     .view-project-btn {
         align-self: center;
+        margin-left: 0 !important;
     }
 
     .project-right {
@@ -424,12 +426,14 @@ body {
     .project-title {
         font-size: 20px;
         text-align: center;
+        padding-left: 0 !important;
     }
 
     .view-project-btn {
         padding: 10px 20px;
         font-size: 14px;
         align-self: center;
+        margin-left: 0 !important;
     }
 
     .project-description {
