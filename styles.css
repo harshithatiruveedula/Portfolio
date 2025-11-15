@@ -163,7 +163,7 @@ body {
 
 .projects-section .project-item:nth-of-type(2) .project-title,
 .projects-section .project-item:last-child .project-title {
-    padding-left: 37px;
+    padding-left: 30px;
 }
 
 .view-project-btn {
@@ -177,7 +177,7 @@ body {
     transition: background-color 0.3s;
     width: fit-content;
     margin-top: 5px;
-    margin-left: 17px;
+    margin-left: 12px;
 }
 
 .view-project-btn:hover {
