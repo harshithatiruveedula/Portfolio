@@ -337,6 +337,11 @@ body {
         padding-left: 0 !important;
     }
 
+    .projects-section .project-item:nth-of-type(2) .project-title,
+    .projects-section .project-item:last-child .project-title {
+        margin-left: -8px;
+    }
+
     .view-project-btn {
         align-self: center;
         margin-left: 0 !important;
@@ -427,6 +432,11 @@ body {
         font-size: 20px;
         text-align: center;
         padding-left: 0 !important;
+    }
+
+    .projects-section .project-item:nth-of-type(2) .project-title,
+    .projects-section .project-item:last-child .project-title {
+        margin-left: -8px;
     }
 
     .view-project-btn {
